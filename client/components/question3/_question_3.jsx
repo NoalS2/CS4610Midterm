@@ -12,8 +12,6 @@ export const Question3 = () => {
     setTransactions(transactions);
   }, []);
 
-  console.log(transactions);
-
   return (
     <div className="flex flex-wrap">
       {transactions.map((transaction) => {
